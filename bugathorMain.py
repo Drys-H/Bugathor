@@ -1,0 +1,18 @@
+italic = "\033[3m"
+reset = "\033[0m"
+print("\n")
+print("\n")
+print("\n")
+print("\n")
+print("┳┓       ┓          ┏┳┓┓     ┓       ┓ ┏     ┓ ")
+print("┣┫┓┏┏┓┏┓╋┣┓┏┓┏┓  •   ┃ ┣┓┏┓  ┃ ┏┓┏╋  ┃┃┃┏┓┏┓╋┣┓")
+print("┻┛┗┻┗┫┗┻┗┛┗┗┛┛   •   ┻ ┛┗┗   ┗┛┗┻┛┗  ┗┻┛┛ ┗┻┗┛┗")
+print(f"{italic}There is no 'undo' in the final commit.{reset}")
+print("\n")
+print("\n")
+print("Welcome Pixel Paladin !\n")
+print("In Codenheim, the fearsome Bugathor corrupts all scripts.")
+print("Each question is a step deeper into the dungeon,")
+print("outsmart the dragon’s minions to reach the final battle.")
+print("Choose wisely. The fate of Codenheim depends on you.\n")
+input("Press Enter to begin your quest...")
