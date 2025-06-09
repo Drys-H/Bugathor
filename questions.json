@@ -1,0 +1,245 @@
+{
+    "group1": [
+      {
+        "question": "What does the CPU mainly do in a computer?",
+        "options": {
+          "a": "Performs calculations super fast",
+          "b": "Takes coffee breaks",
+          "c": "Sends emails"
+        },
+        "answer": "a"
+      },
+      { 
+        "question": "What does 'int' stand for in most programming languages?",
+        "options": {
+        "a": "Internal",
+        "b": "Internet",
+        "c": "Integer"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "In a queue data structure, who gets served first?",
+        "options": {
+          "a": "The last one who joined",
+          "b": "The first one who joined",
+          "c": "Random person"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What does RAM stand for?",
+        "options": {
+          "a": "Random Access Memory",
+          "b": "Really Amazing Magic",
+          "c": "Read Any Memory"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which one is a programming language, not an operating system?",
+        "options": {
+          "a": "Linux",
+          "b": "Windows",
+          "c": "Python"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "How do you write the number 5 in binary?",
+        "options": {
+          "a": "101",
+          "b": "110",
+          "c": "100"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What does IDE stand for in programming?",
+        "options": {
+          "a": "Integrated Development Environment",
+          "b": "Impossible Debugging Experience",
+          "c": "Internet Data Exchange"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": {
+          "a": "func",
+          "b": "define",
+          "c": "def",
+          "d": "function"
+        },
+        "answer": "c"
+      }
+    ],
+    "group2": [
+      {
+        "question": "How does binary search find an item in a sorted list?",
+        "options": {
+          "a": "Checks each item one by one",
+          "b": "Keeps splitting the list in half",
+          "c": "Guesses randomly"
+        },
+        "answer": "b"
+      },
+        {
+          "question": "What is the time complexity of searching in a balanced binary search tree?",
+          "options": {
+            "a": "O(log n)",
+            "b": "O(n)",
+            "c": "O(1)"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which of these is a normalization form in relational databases?",
+          "options": {
+            "a": "2NF",
+            "b": "N3F",
+            "c": "NORMX"
+          },
+          "answer": "a"
+        },
+      {
+        "question": "What does O(n) time complexity mean?",
+        "options": {
+          "a": "Runs instantly",
+          "b": "Runs slower as input grows linearly",
+          "c": "Runs exponentially slow"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What's the worst-case time complexity of bubble sort?",
+        "options": {
+          "a": "O(n)",
+          "b": "O(n²)",
+          "c": "O(log n)"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which data structure follows last-in, first-out order?",
+        "options": {
+          "a": "Queue",
+          "b": "Stack",
+          "c": "Graph"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "In tree traversal, which order visits left child, then node, then right child?",
+        "options": {
+          "a": "Preorder",
+          "b": "Inorder",
+          "c": "Postorder"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What does Dijkstra’s algorithm find?",
+        "options": {
+          "a": "The shortest path in a graph",
+          "b": "The biggest number",
+          "c": "The best sorting method"
+        },
+        "answer": "a"
+      }
+    ],
+    "group3": [
+      {
+        "question": "Which language runs mainly in the browser to make pages interactive?",
+        "options": {
+          "a": "Python",
+          "b": "JavaScript",
+          "c": "C++"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What does HTML stand for?",
+        "options": {
+          "a": "Hyper Text Markup Language",
+          "b": "Hyper Trainer Marking Language",
+          "c": "High Tech Machine Language"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which keyword defines a function in Python?",
+        "options": {
+          "a": "func",
+          "b": "def",
+          "c": "function"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What is a tuple in Python?",
+        "options": {
+          "a": "A list that can change",
+          "b": "An unchangeable list",
+          "c": "A dictionary"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What does CSS do?",
+        "options": {
+          "a": "Styles the web pages",
+          "b": "Runs the server",
+          "c": "Stores data"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which sorting algorithm is NOT comparison-based?",
+        "options": {
+          "a": "Merge Sort",
+          "b": "Heap Sort",
+          "c": "Counting Sort"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "What does this code output: `print('Hello' == 'hello')`?",
+        "options": {
+          "a": "True",
+          "b": "False"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "In Python, which symbol starts a comment?",
+        "options": {
+          "a": "//",
+          "b": "#",
+          "c": "/*"
+        },
+        "answer": "b"
+      }
+    ],
+    "final": [
+      {
+        "question": "Why do programmers prefer dark mode?",
+        "options": {
+          "a": "Because bugs are less visible",
+          "b": "Because it saves battery",
+          "c": "Because code looks cooler"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "The dragon stares into your soul and asks: What is the true complexity of debugging recursive code at 3AM?",
+        "options": {
+          "a": "O(1)",
+          "b": "O(n)",
+          "c": "O(you cry)",
+          "d": "Depends on coffee input"
+        },
+        "answer": "c"
+    }
+    ]
+  }
