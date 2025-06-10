@@ -1,9 +1,9 @@
+<!-- templates/question.html -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bugathor: The Last Wrath</title>
+    <title>Dungeon's Step</title>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-
   <style>
     body {
       font-family: 'Cardo', serif;
@@ -20,15 +20,8 @@
     h1 {
     font-family: 'MedievalSharp', cursive;
     font-size: 3rem;
-    color: #dcad10;  /* gold-ish */
-    text-shadow: 2px 2px 5px rgba(108, 55, 2, 0.533);
+    color: #a68105;  /* gold-ish */
     letter-spacing: 3px;
-    }
-    h3 {
-      font-weight: normal;
-      font-style: italic;
-      margin-bottom: 6rem;
-      color: hsl(38, 82%, 39%);
     }
     p {
       font-size: 1.2rem;
@@ -57,17 +50,16 @@
   </style>
 </head>
 <body>
-    <h1>Bugathor: The Last Wrath</h1>
-    <h3><i>There is no 'undo' in the final commit.</i></h3>
-    <p> ⚔️ Welcome, Pixel Paladin! ⚔️ </p>
-    <br>
-    <p>In Codenheim, the fearsome Bugathor corrupts all scripts.</p>
-    <p>Each question is a step deeper into the dungeon,</p>
-    <p>outsmart the dragon’s minions to reach the final battle.</p>
-    <p>Choose wisely. The fate of Codenheim depends on you.</p>
-    <br><br>
-    <a href="{{ url_for('start') }}">
-        <button>Start the Quest!</button>
-    </a>
+    <h2>{{ question.story }}</h2>
+    <form method="post" action="{{ url_for('answer') }}">
+        <p>{{ question.question }}</p>
+        {% for key, option in question.options.items() %}
+            <label>
+                <input type="radio" name="answer" value="{{ key }}" required>
+                {{ option }}
+            </label><br>
+        {% endfor %}
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
