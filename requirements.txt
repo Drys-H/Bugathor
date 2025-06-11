@@ -1,5 +1,4 @@
 Flask
-<<<<<<< HEAD
 gunicorn
 =======
 gunicorn
