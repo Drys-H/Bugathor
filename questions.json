@@ -30,7 +30,7 @@
     "answer": "a"
   },
   {
-    "story": "You step on a pressure plate — a riddle appears glowing above a sealed door...",
+    "story": "You step on a pressure plate, a riddle appears glowing above a sealed door...",
     "question": "What does RAM stand for?",
     "options": {
       "a": "Random Access Memory",
